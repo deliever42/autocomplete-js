@@ -16,7 +16,7 @@ for (let i = 0; i < strings.length; i++) {
   results[str] = count;
 }
 
-const shorted = Object.entries(result).sort((a, b) => b[1] - a[1])[0];
+const shorted = Object.entries(results).sort((a, b) => b[1] - a[1])[0];
 const estimated = shorted[1] > 0 ? shorted[0] : null;
 
 console.log(`Did you mean ${estimated}?`);
