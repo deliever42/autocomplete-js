@@ -1,2 +1,2 @@
-# autocomplete-ai-js
+# autocomplete-js
 Autocompleter (AI) for JavaScript
